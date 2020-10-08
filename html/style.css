@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box
+}
+
+/* Commentaire */
+
+@font-face {
+    font-family: Peddana;
+    src: url ("peddana.zip");
+    format ("truetype");
+}
+
+body {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 100;
+    font-family: Peddana;
+    text-transform: none;
+    text-decoration: none;
+    text-decoration-color: rgb(186, 145, 224);
+}
+
+a {
+    color: rgb(178, 204, 228);
+}
+
+a :hover {
+    color: rgb(236, 156, 156); 
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    color: rgb(211, 165, 211);
+    border-bottom: 1px solid rgb(250, 192, 240);
+    margin-bottom: 20px;
+    clear: both;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: rosybrown;
+    font-size: 25px;
+}
+
+h3 {
+    color: lightpink;
+    font-size: 20px;
+}
+
+P {
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+/* Laissez un message */
+
+main {
+    width: 60%;
+    float: left;
+    background-color: rgb(207, 239, 240);
+    clear: both;
+    padding: 15px;
+}
+
+aside {
+    width: 30%;
+    border: 1px solid;
+    float: right;
+    padding: 15px;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(233, 208, 217);
+}
+
+.menu li {
+    float: left;
+    margin-bottom: 5%;
+    border-bottom: 10%;
+    padding: 20px;
+}
+
+.menu a {
+    float: left;
+    color: rgb(195, 228, 192);
+    text-decoration: none;
+}
+
+.menu{
+    list-style: none;
+}
+
+/* OKAYYYYY */
